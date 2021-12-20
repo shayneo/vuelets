@@ -2,7 +2,7 @@
 	"name": "vuelets",
 	"displayName": "vuelets",
 	"description": "Opinionated VS Code snippets for Vue (mostly Vue 3)",
-	"version": "0.0.2",
+	"version": "0.0.3",
   "repository": "https://github.com/shayneo/vuelets",
 	"publisher": "shayne",
 	"engines": {
@@ -18,7 +18,7 @@
 				"path": "./vue.json"
 			},
       {
-				"language": "ts",
+				"language": "typescript",
 				"path": "./pinia.json"
 			}
 		]
