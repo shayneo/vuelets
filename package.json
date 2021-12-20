@@ -5,6 +5,9 @@
 	"version": "0.0.3",
   "repository": "https://github.com/shayneo/vuelets",
 	"publisher": "shayne",
+	"scripts": {
+		"package": "vsce package"
+	},
 	"engines": {
 		"vscode": "^1.28.0"
 	},
