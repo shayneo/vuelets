@@ -1,0 +1,42 @@
+{
+  "Basic Vue Component v2 or v3": {
+    "prefix": "vue",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "${0:name}",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script>",
+      "\texport default {",
+      "\t\tname: '${0:name}'",
+      "\t}",
+      "</script>",
+      ""
+    ],
+    "description": "Super simple vue component"
+  },
+  "Vue 3 TS Friendly Component Using defineComponent": {
+    "prefix": "defineComponent",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "\t\t${0:name}",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "\tname: '${0:name}',",
+      "\tsetup () {",
+      "\t\treturn {}",
+      "\t}",
+      "})",
+      "</script>"
+    ],
+    "description": "Base for Vue File Composition API - Typescript"
+  }
+}

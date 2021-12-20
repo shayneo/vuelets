@@ -1,0 +1,16 @@
+{
+	"pinia boilerplate": {
+		"prefix": ["pinia", "piñia"],
+		"body": [
+			"import { defineStore } from 'pinia'",
+      "",
+			"export const useAppScope = defineStore({",
+      "\tid: '${0:id}',",
+      "\tstate: () => ({}),",
+      "\tgetters: {},",
+      "\tactions: {},",
+      "})"
+		],
+		"description": "pinia store boilerplate"
+	}
+}
