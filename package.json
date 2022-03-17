@@ -7,7 +7,8 @@
 	"icon": "images/icon.png",
 	"publisher": "shayne",
 	"scripts": {
-		"package": "vsce package"
+		"package": "vsce package",
+		"publish": "vsce publish"
 	},
 	"engines": {
 		"vscode": "^1.28.0"
