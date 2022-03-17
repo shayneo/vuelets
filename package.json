@@ -2,8 +2,9 @@
 	"name": "vuelets",
 	"displayName": "vuelets",
 	"description": "Opinionated VS Code snippets for Vue (mostly Vue 3)",
-	"version": "0.0.3",
+	"version": "0.0.4",
   "repository": "https://github.com/shayneo/vuelets",
+	"icon": "images/icon.png",
 	"publisher": "shayne",
 	"scripts": {
 		"package": "vsce package"

@@ -4,9 +4,11 @@
 		"body": [
 			"import { defineStore } from 'pinia'",
       "",
-			"export const useAppScope = defineStore({",
+			"export const use${0:id} = defineStore({",
       "\tid: '${0:id}',",
-      "\tstate: () => ({}),",
+      "\tstate: () => {",
+			"\t  return {}",
+			"\t},",
       "\tgetters: {},",
       "\tactions: {},",
       "})"
