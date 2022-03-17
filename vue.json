@@ -38,5 +38,14 @@
       "</script>"
     ],
     "description": "Base for Vue File Composition API - Typescript"
+  },
+  "Vue SFC style": {
+    "prefix": "style",
+    "body": [
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "A scoped style block"
   }
 }
