@@ -17,6 +17,21 @@
     ],
     "description": "Super simple vue component"
   },
+  "Vue 3 TS component with script setup": {
+    "prefix": "setup",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "${0:name}",
+      "\t</div>",
+      "</template>",
+      "",
+      "<script setup lang=\"ts\">",
+      "</script>",
+      ""
+    ],
+    "description": "Super simple script setup style vue component"
+  },
   "Vue 3 TS Friendly Component Using defineComponent": {
     "prefix": "defineComponent",
     "body": [
@@ -41,6 +56,15 @@
   },
   "Vue SFC style": {
     "prefix": "style",
+    "body": [
+      "<style scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "A scoped style block"
+  },
+  "Vue SFC scoped style": {
+    "prefix": "scoped style",
     "body": [
       "<style scoped>",
       "",
